@@ -1,239 +1,127 @@
-# Awesome-Contact-Center-Voice-CTI
+<div align="center">
 
-## Top Contact Center Voice & CTI Ecosystem
+<a href="https://github.com/ishandutta2007/Awesome-Contact-Center-Voice-CTI">
+  <img src="assets/banner.svg" alt="Awesome Contact Center Voice and CTI Banner" width="100%" />
+</a>
 
+# 📞 Awesome Contact Center Voice & CTI Ecosystem 🎧
 
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/jc4xtF58Ve)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Contact-Center-Voice-CTI/graphs/commit-activity)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![GitHub followers](https://img.shields.io/github/followers/ishandutta2007?label=Follow)](https://github.com/ishandutta2007)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+**A Curated Directory of CCaaS SaaS Platforms, Telephony Engines, WebRTC Media Servers & Open-Source Computer Telephony Integration (CTI) Frameworks**
 
-*Focused on Computer Telephony Integration, Voice Routing & Agent Desktop*  
+*Empowering developers, telecom engineers, and contact center architects to build, integrate, and scale enterprise voice experiences.*
 
-**Last updated: March 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Contact Center Voice & CTI**. These tools enable organizations to integrate telephony systems with CRM platforms, route voice interactions intelligently, and provide agents with screen pops, click-to-dial, and unified communication experiences.
-
-
-
-**Examples** include Salesforce Service Cloud Voice, Amazon Connect, Genesys Cloud CX, Talkdesk, Five9, Twilio Voice, Dialpad Contact Center, RingCentral Contact Center, 8x8 Contact Center, and Vonage Contact Center (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom CTI integration, and open telephony platforms — ideal for organizations seeking transparent, vendor-independent voice and CTI solutions.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Salesforce Service Cloud Voice](https://www.salesforce.com/)**  
-
-  Native Salesforce CTI solution bringing telephony directly into Service Cloud. Features Einstein AI transcription, real-time agent assist, and seamless CRM integration with screen pops and click-to-dial.
-
-
-
-- **[Amazon Connect](https://aws.amazon.com/connect/)**  
-
-  Cloud contact center service with pay-as-you-go pricing. Features Contact Lens AI for real-time analytics, omnichannel routing, and extensive AWS ecosystem integration.
-
-
-
-- **[Genesys Cloud CX](https://www.genesys.com/)**  
-
-  Comprehensive CCaaS platform with omnichannel routing, AI-powered forecasting, workforce engagement management, and extensive CRM integrations including Salesforce and Microsoft Dynamics.
-
-
-
-- **[Talkdesk](https://www.talkdesk.com/)**  
-
-  Cloud contact center platform with AI-powered agent assist (Copilot), omnichannel routing, and industry-specific solutions. Deep Salesforce integration with CTI capabilities.
-
-
-
-- **[Five9](https://www.five9.com/)**  
-
-  Intelligent cloud contact center with omnichannel routing, AI-powered agent assist, IVA, and workforce optimization. Strong CRM integrations including Salesforce, Microsoft, and Oracle.
-
-
-
-- **[Twilio Voice](https://www.twilio.com/voice)**  
-
-  Programmable voice API platform enabling custom CTI solutions. Features Elastic SIP Trunking, programmable call control, and WebRTC-based softphone capabilities.
-
-
-
-- **[Dialpad Contact Center](https://www.dialpad.com/)**  
-
-  AI-powered contact center with real-time transcription, sentiment analysis, and omnichannel routing. Native Salesforce and Google Workspace integrations with CTI features.
-
-
-
-- **[RingCentral Contact Center](https://www.ringcentral.com/)**  
-
-  Cloud contact center with omnichannel routing, AI-powered agent assist, and workforce management. Strong CRM integrations including Salesforce, Zendesk, and Microsoft.
-
-
-
-- **[8x8 Contact Center](https://www.8x8.com/)**  
-
-  Integrated CCaaS and UCaaS platform with omnichannel routing, AI-powered agent assist, and analytics. Salesforce CTI integration available.
-
-
-
-- **[Vonage Contact Center](https://www.vonage.com/)**  
-
-  Cloud contact center with omnichannel routing, AI virtual assistant, and Salesforce-native CTI integration with screen pops and click-to-dial.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Asterisk](https://github.com/asterisk/asterisk)**  
-
-  The world's most widely deployed open-source PBX (GPL-2.0). Foundation for countless CTI and contact center platforms. Features IVR, call queues, conferencing, voicemail, and ARI/REST APIs for custom integrations. The backbone of open-source telephony.
-
-
-
-- **[FreeSWITCH](https://github.com/signalwire/freeswitch)**  
-
-  Scalable open-source telephony platform (MPL-1.1). Powers many commercial contact center solutions. Supports SIP, WebRTC, IVR, conferencing, and call recording. SignalWire offers commercial cloud hosting. High concurrency and flexible IVR handling .
-
-
-
-- **[VICIdial](https://github.com/vicidial/vicidial)**  
-
-  Open-source predictive dialer and contact center suite (AGPL-2.0). Features inbound/outbound blending, IVR, call recording, WebRTC agent screen, and agent scripting. Widely used for outbound campaigns. GDPR features added in 2018 .
-
-
-
-- **[ICTInnovations ICTCRM / ICTContact](https://github.com/ictinnovations/ictcrm)**  
-
-  SuiteCRM enhanced with CTI integration (AGPL-3.0). ICTContact is Asterisk-based advanced contact center software featuring omnichannel communications, IVR studio, CRM operations, and WebRTC agent-based dialing. Enables CRM users to make/receive calls directly from CRM and export leads to contact center campaigns . The ICTInnovations ecosystem includes ICTCore (FreeSWITCH-based framework), ICTPBX (multi-tenant PBX), and ICTBroadcast (AI dialer) .
-
-
-
-- **[FusionPBX](https://github.com/fusionpbx/fusionpbx)**  
-
-  Open-source multi-tenant PBX and voice switch (MPL-1.1) built on FreeSWITCH. Features call center modules with queues, agents, and reporting. Web-based GUI for easy management. Provides customizable and flexible web interface to FreeSWITCH .
-
-
-
-- **[XiVO](https://github.com/xivo-pbx/xivo)**  
-
-  Complete IP communications system for businesses (GPLv3) based on Asterisk. Features telephony, voicemail, and call center functions with CTI server giving access to additional features via XiVO Client application. Flexible design for custom deployments .
-
-
-
-- **[asterCC](https://github.com/astercc/astercc)**  
-
-  Asterisk-based software package (2008) containing asterCRM (call center solution) and asterBilling (real-time billing). Features distributed architecture, Google ASR/TTS integration for voice navigation, intelligent quality inspection, and CATI telephone survey capabilities. Supports 240+ concurrent Asterisk calls .
-
-
-
-- **[NextGenSwitch](https://github.com/nextgenswitch/nextgenswitch)**  
-
-  Programmable omnichannel communications platform for AI call center software, cloud PBX operations, and contact center teams. Features virtual PBX, contact center workflows, AI IVR with LLM integration, campaigns and surveys, programmable Voice API, and white-label multi-tenant deployments .
-
-
-
-- **[Unpod](https://github.com/unpod-ai/unpod)**  
-
-  Open-source CPaaS for contact center teams (license varies). Features AI voice agents powered by LiveKit + Pipecat + LangChain, multi-tenant organizations with RBAC, agent studio, knowledge bases, and conversation threads. Built with Next.js, Django, and PostgreSQL .
-
-
-
-- **[Linphone](https://github.com/BelledonneCommunications/linphone-android)**  
-
-  Open-source real-time communications software based on SIP, WebRTC, LDAP, and OpenID Connect. Enables telephony integration into digital workplaces with click-to-call, call history, and directory synchronization. Web and desktop clients for various user profiles .
-
-
-
-- **[Dialplane](https://github.com/dialplane/dialplane)**  
-
-  Async, pure-Python SIP/RTP engine (Apache-2.0, pre-release) for AI voice agents. Connect SIP trunk directly to Python code, answer/place calls, stream call audio as PCM frames, and plug into agent frameworks like Pipecat. Self-hosted with no per-minute streaming fees .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Kamailio](https://github.com/kamailio/kamailio)** — Open-source SIP server for large-scale VoIP and real-time communication.
-
-- **[OpenSIPS](https://github.com/OpenSIPS/opensips)** — Multi-functional open-source SIP server for voice, video, and messaging.
-
-- **[FreePBX](https://github.com/FreePBX/framework)** — Open-source PBX GUI built on Asterisk with IVR, queues, and time conditions.
-
-- **[Wazo Platform](https://github.com/wazo-platform/wazo-platform)** — Open-source programmable telecommunications platform with call center APIs.
-
-- **[Routr](https://github.com/fonoster/routr)** — Open-source programmable SIP proxy and location server for multi-tenant deployments.
-
-- **[Fonoster](https://github.com/fonoster/fonoster)** — Open-source alternative to Twilio with programmable voice, SMS, and SIP trunking.
-
-- Community **Asterisk ARI** and **FreeSWITCH ESL** libraries for custom CTI development.
-
-- **Salesforce Open CTI** (open-source toolkit) for browser-based CTI integration without desktop adapters .
-
-
-
-**Frameworks for building custom systems**: Combine **Asterisk** or **FreeSWITCH** for telephony with **ICTCRM** or **SuiteCRM** for CRM integration, **FusionPBX** for management, **Kamailio** for SIP routing, and **Grafana** for analytics — creating a fully self-hosted, enterprise-grade voice and CTI platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Contact center voice systems handling customer data must comply with data protection and telephony regulations (GDPR, TCPA, PCI-DSS, etc.).
-
-- Self-hosted open-source solutions require proper security hardening, SIP trunk provisioning, and ongoing maintenance for production reliability.
-
-
+</div>
 
 ---
 
+## 📑 Table of Contents
 
+- [🔍 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted CCaaS Platforms](#️-saas--hosted-ccaas-platforms)
+- [💻 Open-Source Telephony & CTI Projects](#-open-source-telephony--cti-projects)
+- [📈 Star History](#-star-history)
+- [🤝 Contributing](#-contributing)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚖️ Disclaimer](#️-disclaimer)
 
-**Made for contact center managers, telecom engineers, CTI developers, and developers building transparent voice solutions.**  
+---
 
-Let's make contact center voice and CTI more open, data-driven, and efficient.
+## 🔍 Sector Overview & Market Dynamics
+
+The global Contact Center as a Service (CCaaS) and CTI market was valued at approximately **$6.2 billion in 2024** and is projected to surpass **$19.8 billion by 2030**, exhibiting a robust Compound Annual Growth Rate (CAGR) of **19.3%**, driven by cloud migration, omnichannel routing demand, and generative AI agentic automation.
+
+The sector is **moderately fragmented**: mega-cap hyper-scalers and enterprise software giants (Salesforce, AWS, Cisco) dominate global enterprise workflows and CRM hooks, while established pure-play CCaaS leaders (Genesys, Five9, Talkdesk, NICE) compete aggressively on specialized workforce engagement (WEM) and agent copilot intelligence, alongside programmable CPaaS disruptors (Twilio, LiveKit) and vibrant open-source foundations (Asterisk, FreeSWITCH, Kamailio).
+
+---
+
+## ☁️ SaaS / Hosted CCaaS Platforms
+
+Below is a comparison of premier commercial SaaS platforms for contact center voice, CTI, and automated routing, ranked in descending order of vendor scale (market capitalization / valuation):
+
+| Product | Company Size (Valuation / Revenue) | Starting Pricing (Specific Tier) | Free Tier / Free Trial Limits | Key Voice & CTI Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Amazon Connect](https://aws.amazon.com/connect/)** | **~$1.95T Market Cap** (Amazon / AWS; AWS ~$105B+ ARR) | **$0.018 per minute** (Inbound & Outbound US usage-based pricing) + $0.005/min Contact Lens; $0.03/day per claimed DID number | **12-Month AWS Free Tier**: 90 min/mo of Amazon Connect usage, 30 min/mo Contact Lens, and 1 DID number (US region) free for 1 year | Cloud-native CCaaS, Contact Lens AI, CRM CTI integration, dynamic drag-and-drop IVR flows, real-time analytics. |
+| **[Salesforce Service Cloud Voice](https://www.salesforce.com/)** | **~$280B Market Cap** (Salesforce FY25 ~$38B Revenue) | **$50/user/month** (Partner Telephony add-on billed annually) or **$75/user/month** (with native AWS Telephony included) | **30-Day Free Trial** of Salesforce Service Cloud (Enterprise edition sandbox with simulated telephony integration testing) | Embedded Service Cloud console CTI, Einstein AI voice transcription, automatic screen pops, click-to-dial. |
+| **[Twilio Voice](https://www.twilio.com/voice)** | **~$13B Market Cap** (Twilio ~$4.2B ARR) | **$0.0085 per minute** (Inbound browser/app VoIP) / **$0.014 per minute** (Inbound local number) + $1.15/month per local DID | **$15.00 Free Trial Credit** (No expiration date on credit; includes 1 trial phone number, unrestricted API sandbox testing) | Programmable Voice API, WebRTC SDKs, Elastic SIP Trunking, call recording, Speech-to-Text, custom CTI routing. |
+| **[Genesys Cloud CX](https://www.genesys.com/)** | **~$13B Valuation** (Private / Permira; ~$2.5B ARR) | **$75/named user/month** (Cloud CX 1 Voice plan billed annually) | **30-Day Free Trial** (Full access sandbox to Genesys Cloud CX environment with demo queues and WebRTC client) | Omnichannel routing, AI agent assist, workforce engagement management, native CRM CTI for Salesforce and Microsoft Dynamics. |
+| **[RingCentral Contact Center](https://www.ringcentral.com/)** | **~$3.2B Market Cap** (RingCentral ~$2.4B ARR) | **$65/agent/month** (RingCX AI-powered CCaaS plan billed annually) | **14-Day Free Trial** (RingCX and RingCentral MVP supporting up to 5 user extensions and 50 call minutes) | Omnichannel ACD, AI virtual agents, smart transcription, deep CTI integration for Salesforce, Zendesk, and ServiceNow. |
+| **[Five9](https://www.five9.com/)** | **~$2.8B Market Cap** (Five9 ~$1.0B ARR) | **$149/agent/month** (Core Voice tier billed annually) | **30-Day Guided Proof-of-Concept / Trial** (Vendor-assisted sandbox instance with live agent desktop testing) | Intelligent Cloud Contact Center, IVA conversational AI, predictive dialer, pre-built CTI adapters for Salesforce, ServiceNow, and Oracle. |
+| **[8x8 Contact Center](https://www.8x8.com/)** | **~$260M Market Cap** (8x8 ~$730M ARR) | **$85/user/month** (X6 Voice CCaaS plan billed annually) | **30-Day Free Trial** (Trial workspace with softphone WebRTC interface and admin routing tools) | Unified CCaaS and UCaaS, speech analytics, skill-based routing, native Salesforce and Zendesk CTI connector. |
+| **[Dialpad Contact Center](https://www.dialpad.com/)** | **~$2.2B Valuation** (Private Series F; ~$300M+ ARR) | **$80/user/month** (Ai Contact Center Essentials tier billed annually) | **14-Day Free Trial** (Includes unlimited calling/SMS within US/Canada, Dialpad Ai live transcription for up to 5 licenses) | Proprietary Dialpad Ai real-time transcription, sentiment analysis, screen pops, Salesforce and Google Workspace CTI. |
+| **[Talkdesk](https://www.talkdesk.com/)** | **~$10B Valuation** (Private Series D; ~$500M+ ARR) | **$85/user/month** (CX Cloud Essentials tier billed annually) | **14-Day Free Trial** (Interactive cloud sandbox with access to Talkdesk Studio, demo IVR flows, and agent workspace) | AI-powered Talkdesk Copilot, omnichannel studio, click-to-dial CTI, automated CRM synchronization and screen pops. |
+| **[Vonage Contact Center](https://www.vonage.com/)** | **~$6.2B Acquisition Valuation** (Subsidiary of Ericsson) | **$95/agent/month** (Express tier billed annually) | **14-Day Free Trial** (Vonage Business Communications and API developer sandbox with $10 voice credit) | Salesforce-native CTI console integration, omni-channel routing, Vonage AI Virtual Assistant, WebRTC softphone. |
+
+---
+
+## 💻 Open-Source Telephony & CTI Projects
+
+The open-source ecosystem provides transparent, self-hosted, and customizable building blocks—spanning SIP proxies, telephony switches, WebRTC media servers, and real-time AI voice runtimes. Repositories are ranked below in descending order of GitHub stargazers:
+
+| Repository | GitHub Stars | License | Description & Telephony Capabilities |
+| :--- | :---: | :---: | :--- |
+| **[chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)** | [![GitHub stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | AGPL-3.0 | Open-source customer engagement platform and omnichannel helpdesk with voice channel support, live chat, and CRM integrations. |
+| **[jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet)** | [![GitHub stars](https://img.shields.io/github/stars/jitsi/jitsi-meet?style=social&color=white)](https://github.com/jitsi/jitsi-meet/stargazers) | Apache-2.0 | High-performance WebRTC video and audio conferencing engine; provides underlying real-time communication infrastructure for contact center video/voice escalations. |
+| **[livekit/livekit](https://github.com/livekit/livekit)** | [![GitHub stars](https://img.shields.io/github/stars/livekit/livekit?style=social&color=white)](https://github.com/livekit/livekit/stargazers) | Apache-2.0 | Next-generation WebRTC media stack and transport engine optimized for real-time human-to-human and AI-to-human voice agent sessions. |
+| **[pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat)** | [![GitHub stars](https://img.shields.io/github/stars/pipecat-ai/pipecat?style=social&color=white)](https://github.com/pipecat-ai/pipecat/stargazers) | BSD-2-Clause | Ultra-low latency open-source framework for building conversational voice agents, combining SIP/WebRTC audio with real-time LLMs and TTS/STT pipelines. |
+| **[coturn/coturn](https://github.com/coturn/coturn)** | [![GitHub stars](https://img.shields.io/github/stars/coturn/coturn?style=social&color=white)](https://github.com/coturn/coturn/stargazers) | BSD-3-Clause | Standard TURN/STUN server essential for establishing peer-to-peer WebRTC voice sessions and bypassing corporate NAT/firewalls in browser-based CTI. |
+| **[fonoster/fonoster](https://github.com/fonoster/fonoster)** | [![GitHub stars](https://img.shields.io/github/stars/fonoster/fonoster?style=social&color=white)](https://github.com/fonoster/fonoster/stargazers) | MIT | The open-source alternative to Twilio. Programmable telecommunications stack with Node.js APIs for voice calls, SMS, and SIP trunking. |
+| **[versatica/mediasoup](https://github.com/versatica/mediasoup)** | [![GitHub stars](https://img.shields.io/github/stars/versatica/mediasoup?style=social&color=white)](https://github.com/versatica/mediasoup/stargazers) | ISC | Cutting-edge WebRTC Selective Forwarding Unit (SFU) library for building custom multi-party voice rooms and high-throughput agent call bridges. |
+| **[signalwire/freeswitch](https://github.com/signalwire/freeswitch)** | [![GitHub stars](https://img.shields.io/github/stars/signalwire/freeswitch?style=social&color=white)](https://github.com/signalwire/freeswitch/stargazers) | MPL-1.1 | Scalable multi-protocol softswitch and voice router powering carrier-grade contact centers with SIP, WebRTC, IVR, ESL control, and conferencing. |
+| **[jitsi/jitsi](https://github.com/jitsi/jitsi)** | [![GitHub stars](https://img.shields.io/github/stars/jitsi/jitsi?style=social&color=white)](https://github.com/jitsi/jitsi/stargazers) | Apache-2.0 | Classic open-source multi-protocol audio/video SIP and XMPP client; foundational codebase for open desktop telephony integration. |
+| **[asterisk/asterisk](https://github.com/asterisk/asterisk)** | [![GitHub stars](https://img.shields.io/github/stars/asterisk/asterisk?style=social&color=white)](https://github.com/asterisk/asterisk/stargazers) | GPL-2.0 | The grandfather of open-source PBX. Powers millions of telephony lines worldwide with comprehensive ACD queues, IVR, ARI REST APIs, and AMI CTI triggers. |
+| **[kamailio/kamailio](https://github.com/kamailio/kamailio)** | [![GitHub stars](https://img.shields.io/github/stars/kamailio/kamailio?style=social&color=white)](https://github.com/kamailio/kamailio/stargazers) | GPL-2.0 | Carrier-grade SIP proxy handling thousands of call setups per second for large-scale VoIP routing, load balancing, and anti-fraud enforcement. |
+| **[versatica/JsSIP](https://github.com/versatica/JsSIP)** | [![GitHub stars](https://img.shields.io/github/stars/versatica/JsSIP?style=social&color=white)](https://github.com/versatica/JsSIP/stargazers) | MIT | Pure JavaScript SIP library utilizing WebRTC. Enables embedding full-featured softphones and CTI call bars directly into CRM web browsers. |
+| **[onsip/SIP.js](https://github.com/onsip/SIP.js)** | [![GitHub stars](https://img.shields.io/github/stars/onsip/SIP.js)](https://github.com/onsip/SIP.js/stargazers) | MIT | Rich JavaScript SIP stack written in TypeScript; powers browser-based WebRTC softphones, agent screens, and web dialers. |
+| **[fonoster/routr](https://github.com/fonoster/routr)** | [![GitHub stars](https://img.shields.io/github/stars/fonoster/routr?style=social&color=white)](https://github.com/fonoster/routr/stargazers) | Apache-2.0 | Lightweight, programmable SIP server and location proxy designed for cloud-native microservices and multi-tenant voice routing. |
+| **[OpenSIPS/opensips](https://github.com/OpenSIPS/opensips)** | [![GitHub stars](https://img.shields.io/github/stars/OpenSIPS/opensips?style=social&color=white)](https://github.com/OpenSIPS/opensips/stargazers) | GPL-2.0 | High-performance SIP routing engine supporting dynamic routing, SIP trunk load balancing, fraud detection, and multi-tenant contact centers. |
+| **[BelledonneCommunications/linphone-android](https://github.com/BelledonneCommunications/linphone-android)** | [![GitHub stars](https://img.shields.io/github/stars/BelledonneCommunications/linphone-android?style=social&color=white)](https://github.com/BelledonneCommunications/linphone-android/stargazers) | AGPL-3.0 | Android client implementation of Linphone SIP phone, showcasing mobile CTI, crystal-clear audio codecs, and secure voice communication. |
+| **[fusionpbx/fusionpbx](https://github.com/fusionpbx/fusionpbx)** | [![GitHub stars](https://img.shields.io/github/stars/fusionpbx/fusionpbx?style=social&color=white)](https://github.com/fusionpbx/fusionpbx/stargazers) | MPL-1.1 | Feature-rich web-based administration GUI for FreeSWITCH with multi-tenant domain isolation, ACD queues, IVR builders, and CDR reporting. |
+| **[sipwise/rtpengine](https://github.com/sipwise/rtpengine)** | [![GitHub stars](https://img.shields.io/github/stars/sipwise/rtpengine?style=social&color=white)](https://github.com/sipwise/rtpengine/stargazers) | GPL-3.0 | Kernel-accelerated RTP and WebRTC media proxy for Kamailio and OpenSIPS, handling media transcoding, DTLS encryption, and ICE traversal. |
+| **[unpod-ai/unpod](https://github.com/unpod-ai/unpod)** | [![GitHub stars](https://img.shields.io/github/stars/unpod-ai/unpod?style=social&color=white)](https://github.com/unpod-ai/unpod/stargazers) | Apache-2.0 | Open-source CPaaS for AI contact center agents utilizing LiveKit, Pipecat, LangChain, and Django to deliver autonomous phone triage. |
+| **[FreePBX/framework](https://github.com/FreePBX/framework)** | [![GitHub stars](https://img.shields.io/github/stars/FreePBX/framework?style=social&color=white)](https://github.com/FreePBX/framework/stargazers) | GPL-3.0 | Modular core framework for FreePBX, simplifying Asterisk configuration with web GUI controls for ring groups, IVRs, and extensions. |
+| **[ictinnovations/ictcrm](https://github.com/ictinnovations/ictcrm)** | [![GitHub stars](https://img.shields.io/github/stars/ictinnovations/ictcrm?style=social&color=white)](https://github.com/ictinnovations/ictcrm/stargazers) | AGPL-3.0 | SuiteCRM enhancement adding Asterisk/FreeSWITCH CTI capabilities, auto-dialers, contact center campaign tracking, and WebRTC dialing. |
+| **[nextgenswitch/nextgenswitch](https://github.com/nextgenswitch/nextgenswitch)** | [![GitHub stars](https://img.shields.io/github/stars/nextgenswitch/nextgenswitch?style=social&color=white)](https://github.com/nextgenswitch/nextgenswitch/stargazers) | GPL-3.0 | Next-generation softswitch and cloud PBX framework featuring AI IVR workflows, programmable Voice APIs, and multi-tenant billing. |
+| **[wazo-platform/wazo-platform](https://github.com/wazo-platform/wazo-platform)** | [![GitHub stars](https://img.shields.io/github/stars/wazo-platform/wazo-platform?style=social&color=white)](https://github.com/wazo-platform/wazo-platform/stargazers) | GPL-3.0 | Fully programmable, API-first communication platform built on Asterisk for deploying modern telephony and call center infrastructure. |
+| **[dialplane/dialplane](https://github.com/dialplane/dialplane)** | [![GitHub stars](https://img.shields.io/github/stars/dialplane/dialplane?style=social&color=white)](https://github.com/dialplane/dialplane/stargazers) | Apache-2.0 | Pure-Python async SIP/RTP engine for AI voice agents, enabling direct audio stream ingestion into Python AI frameworks without extra per-minute fees. |
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Contact-Center-Voice-CTI&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Contact-Center-Voice-CTI&type=date&legend=top-left)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome and appreciated! To add a new SaaS platform, open-source telephony framework, or CTI tool:
+
+1. **Fork** the repository 🍴
+2. **Create a branch** for your updates (`git checkout -b feat/add-new-cti-tool`) 🌿
+3. **Add your entry** keeping tables sorted according to established metrics (Company Valuation for SaaS; GitHub Stars for Open-Source) 📝
+4. **Follow the formatting guidelines**: include clear links, specific pricing tiers, trial constraints, and licenses 🎯
+5. **Open a Pull Request** with a brief summary of the project and why it belongs in the list 🚀
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and bookmarking the **Awesome Contact Center Voice & CTI** list! ⭐ If you find this resource useful for your engineering work or telecom architecture:
+
+- **Star this repository** to help others discover it ⭐
+- **Fork and share** it with fellow telecom and CTI developers 🌐
+- Consider supporting ongoing maintenance by buying a coffee on the [**GitHub Sponsors Dashboard**](https://github.com/sponsors/ishandutta2007) ☕
+
+---
+
+## ⚖️ Disclaimer
+
+- This list is **community-curated** for educational, engineering, and informational purposes and does not imply vendor endorsement.
+- Contact center voice platforms processing customer communications and biometric voice prints must strictly comply with regional regulatory standards including **GDPR**, **TCPA**, **HIPAA**, and **PCI-DSS**.
+- Deploying self-hosted open-source telephony systems in production requires dedicated SIP firewall hardening, TLS/SRTP configuration, and high-availability session border controllers (SBCs).
